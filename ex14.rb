@@ -19,3 +19,6 @@ ai zis '#{likes}' iti place de mine.
 locuiesti in #{adresa}
 si ai un calc #{calc}
 """
+
+formatter = "%{first} %{second} %{third} "
+puts "raspunsuri " + formatter % {first: likes, second:adresa, third:calc}
